@@ -1,4 +1,22 @@
-class Apple extends Pome {
+class Pome implements IPome {
+
+    _isYoung: boolean;
+
+    constructor() {
+        this.isYoung = true;
+    }
+
+    set isYoung(value: boolean) {
+        this._isYoung = value;
+    }
+
+    get isYoung(): boolean {
+        return this._isYoung;
+    }
+
+}
+
+class Apple extends Pome implements IApple {
 
     _id: number;
     _color: string;
@@ -6,6 +24,7 @@ class Apple extends Pome {
     age: number;
 
     constructor(id: number) {
+        super();
         this._id = id;
         if(this.age > 3) this.isYoung = false;
     }
