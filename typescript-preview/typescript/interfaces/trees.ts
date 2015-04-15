@@ -1,10 +1,10 @@
 interface IAppleTree {
-    applesCount: number;
+    //applesCount: number;
     apples: any[];
     colors: any[];
     tastes: any[];
 
-    makeApples(n: number);
+    //makeApples(n: number);
     applesColors();
     applesTastes();
     applesAges();

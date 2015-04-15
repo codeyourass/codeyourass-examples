@@ -23,7 +23,7 @@ class AppleTree implements IAppleTree {
      * Make apples for tree instance
      * @param n Represent count of apples on each tree
      */
-    private makeApples(n) {
+    private makeApples(n: number) {
 
         for (var i = 0; i < n; i++)
             this.apples[i] = new Apple(i);
