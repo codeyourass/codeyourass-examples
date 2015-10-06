@@ -1,0 +1,15 @@
+{
+  "name": "typescript-decorators",
+  "version": "1.0.0",
+  "description": "How typescript decorators are working.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.13.3"
+  }
+}
