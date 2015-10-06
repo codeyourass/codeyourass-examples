@@ -1,3 +1,3 @@
-[submodule "typecript-decorators"]
-	path = typecript-decorators
+[submodule "typescript-decorators"]
+	path = typescript-decorators
 	url = git@github.com:creaux/typescript-decorators.git
