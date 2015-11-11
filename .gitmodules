@@ -1,3 +1,15 @@
 [submodule "typescript-decorators"]
 	path = typescript-decorators
 	url = git@github.com:creaux/typescript-decorators.git
+[submodule "angular-component"]
+	path = angular-component
+	url = git@gist.github.com:1b416a3d00f88cfcb275.git
+[submodule "angular-tests-previews"]
+	path = angular-tests-previews
+	url = git@gist.github.com:b5775129a78cc2d1328e.git
+[submodule "typescript-arrow"]
+	path = typescript-arrow
+	url = git@gist.github.com:0cdd06ee73b49f6f676b.git
+[submodule "es5-class-design-pattern"]
+	path = es5-class-design-pattern
+	url = git@gist.github.com:b611b6b8b8d09a25f1ff.git
